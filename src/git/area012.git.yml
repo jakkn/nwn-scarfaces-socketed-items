@@ -1,0 +1,479 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: GIT
+__struct_id: 4294967295
+AreaProperties:
+  type: struct
+  value: !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 100
+    AmbientSndDay: {type: int, value: 92}
+    AmbientSndDayVol: {type: int, value: 32}
+    AmbientSndNight: {type: int, value: 93}
+    AmbientSndNitVol: {type: int, value: 32}
+    EnvAudio: {type: int, value: 89}
+    MusicBattle: {type: int, value: 57}
+    MusicDay: {type: int, value: 58}
+    MusicDelay: {type: int, value: 90000}
+    MusicNight: {type: int, value: 58}
+Creature List:
+  type: list
+  value: []
+Door List:
+  type: list
+  value: []
+Encounter List:
+  type: list
+  value: []
+List:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 19}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 4}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      str_ref: 13389
+      value:
+        0: ''
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 0}
+    LocalizedName:
+      type: cexolocstr
+      str_ref: 13388
+      value:
+        0: "<c\x01þ\x01>Amulet</c>"
+    ModelPart1: {type: byte, value: 13}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 335}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: socketamulet}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: SOCKET_SLOTS}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 4}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 9.3372}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 10.5998}
+    ZPosition: {type: float, value: 0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 21}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 4}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      str_ref: 56605
+      value:
+        0: ''
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 0}
+    LocalizedName:
+      type: cexolocstr
+      str_ref: 56604
+      value:
+        0: "<c\x01þ\x01>Belt</c>"
+    ModelPart1: {type: byte, value: 2}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 335}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: socketbelt}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: SOCKET_SLOTS}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 4}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 10.9202}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 10.2041}
+    ZPosition: {type: float, value: 0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 24}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 3}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      value: {}
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 1}
+    LocalizedName:
+      type: cexolocstr
+      value:
+        0: "<c\x01þ\x01>Acid Resistance Bonus</c>"
+    ModelPart1: {type: byte, value: 49}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 329}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: aciresistgem}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_TYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 23}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_SUBTYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 6}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 10.7403}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 11.6432}
+    ZPosition: {type: float, value: 0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 24}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 3}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      value: {}
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 1}
+    LocalizedName:
+      type: cexolocstr
+      value:
+        0: "<c\x01þ\x01>Acid Resistance Bonus</c>"
+    ModelPart1: {type: byte, value: 49}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 329}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: aciresistgem}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_TYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 23}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_SUBTYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 6}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 9.3012}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 12.4347}
+    ZPosition: {type: float, value: 0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 24}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 3}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      value: {}
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 1}
+    LocalizedName:
+      type: cexolocstr
+      value:
+        0: "<c\x01þ\x01>Bludgeoning Resistance Bonus</c>"
+    ModelPart1: {type: byte, value: 49}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 329}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: bluresistgem}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_TYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 23}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_SUBTYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 0}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 12.6831}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 11.3194}
+    ZPosition: {type: float, value: 0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 24}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 3}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      value: {}
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 1}
+    LocalizedName:
+      type: cexolocstr
+      value:
+        0: "<c\x01þ\x01>Bludgeoning Resistance Bonus</c>"
+    ModelPart1: {type: byte, value: 49}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 329}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: bluresistgem}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_TYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 23}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_SUBTYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 0}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 12.4672}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 12.5066}
+    ZPosition: {type: float, value: -0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 24}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 3}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      value: {}
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 1}
+    LocalizedName:
+      type: cexolocstr
+      value:
+        0: "<c\x01þ\x01>Cold Resistance Bonus</c>"
+    ModelPart1: {type: byte, value: 49}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 329}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: colresistgem}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_TYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 23}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_SUBTYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 7}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 11.9995}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 10.7078}
+    ZPosition: {type: float, value: 0.0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    AddCost: {type: dword, value: 0}
+    BaseItem: {type: int, value: 24}
+    Charges: {type: byte, value: 0}
+    Cost: {type: dword, value: 3}
+    Cursed: {type: byte, value: 0}
+    DescIdentified:
+      type: cexolocstr
+      value: {}
+    Description:
+      type: cexolocstr
+      value:
+        0: ''
+    Identified: {type: byte, value: 1}
+    LocalizedName:
+      type: cexolocstr
+      value:
+        0: "<c\x01þ\x01>Cold Resistance Bonus</c>"
+    ModelPart1: {type: byte, value: 49}
+    Plot: {type: byte, value: 0}
+    PropertiesList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ChanceAppear: {type: byte, value: 100}
+        CostTable: {type: byte, value: 3}
+        CostValue: {type: word, value: 13}
+        Param1: {type: byte, value: 255}
+        Param1Value: {type: byte, value: 0}
+        PropertyName: {type: word, value: 15}
+        Subtype: {type: word, value: 329}
+    StackSize: {type: word, value: 1}
+    Stolen: {type: byte, value: 0}
+    Tag: {type: cexostr, value: sf_sockets}
+    TemplateResRef: {type: resref, value: colresistgem}
+    VarTable:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_TYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 23}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Name: {type: cexostr, value: IP_SUBTYPE}
+        Type: {type: dword, value: 1}
+        Value: {type: int, value: 7}
+    XOrientation: {type: float, value: 0.0}
+    XPosition: {type: float, value: 12.755}
+    YOrientation: {type: float, value: 1.0}
+    YPosition: {type: float, value: 10.2041}
+    ZPosition: {type: float, value: 0.0}
+Placeable List:
+  type: list
+  value: []
+SoundList:
+  type: list
+  value: []
+StoreList:
+  type: list
+  value: []
+TriggerList:
+  type: list
+  value: []
+WaypointList:
+  type: list
+  value: []
